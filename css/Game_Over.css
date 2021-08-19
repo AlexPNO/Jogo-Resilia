@@ -1,0 +1,9 @@
+body {
+    background: url("../assets/2052368-game-over-banner-for-games-with-glitch-effect-neon-light-on-text-vector-illustration-design-grátis-vetor.jpg") no-repeat center center fixed;
+    background-color: #cccccc;
+    
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   }

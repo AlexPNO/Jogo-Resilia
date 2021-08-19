@@ -20,7 +20,10 @@ function func1(){
     
     function func2(){
         var escolha=prompt("Olá meu nome é João você foi selecionado dentre muitas pessoas para viver na nossa cidade, você possui a saptidões físicas, mas será que possui as intelectuais? Por favor venha comigo.1-Seguir Jõao 2-Empurrá-lo e sair correndo")
-        // while(escolha.toLowerCase!=='sim' && escolha.toLowerCase!=='não')
+        while(escolha!=='1' && escolha!=='2')
+        {
+        var escolha=prompt("Qual sua escolha?")
+        }
             if(escolha ==='1')
             { func3()
           
@@ -35,7 +38,7 @@ function func1(){
         }
 
         function func3(){
-            // while(escolha.toLowerCase!=='sim' && escolha.toLowerCase!=='não')
+            
                
                  location.replace('../Isaquias/Isaquias2.html')
               

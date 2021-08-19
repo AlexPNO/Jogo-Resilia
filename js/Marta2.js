@@ -3,7 +3,10 @@ function escolha5(){
     
     alert('Aqui está o teste, não se sinta pressionada, você pode consultar os livros e chegar na resposta')
     var escolha=prompt('1-Investigar os livros antes de responder o teste 2-Ir direto para o teste')
-    // while(escolha.toLowerCase!=='sim' && escolha.toLowerCase!=='não')
+    while(escolha!=='1' && escolha!=='2')
+    {
+    var escolha=prompt("Qual sua escolha?")
+    }
         if(escolha ==='1')
         {
             alert("Ao investigar os livros da biblioteca, você procura por livros de história para saber onde está e porque foi selecionada para viver nessa cidade.Você descobre que a cidade para qual está sendo selecionada é um paraíso perfeito com comida, entretenimento e onde você poderia exercitar suas aptidões físicas e mentais ao longo de uma vida tranquila.E você acha isso maravilhoso")
@@ -29,6 +32,11 @@ function escolha5(){
         
         var escolha=prompt('Digite sua resposta')
 
+        while(escolha!=='1' && escolha!=='2')
+        {
+        var escolha=prompt("Qual sua escolha?")
+        }
+
             if(escolha ==='1')
             {
             alert('Você acertou venha comigo!Vou te levar a um jardim onde fica a entrada da cidade!')    
@@ -48,7 +56,10 @@ function escolha5(){
         function escolha7(){
         
             var escolha=prompt('Digite sua resposta')
-
+            while(escolha!=='1' && escolha!=='2')
+            {
+            var escolha=prompt("Qual sua escolha?")
+            }
                 if(escolha ==='1')
                 {
                 alert('Você acertou venha comigo!Vou te levar a um jardim onde fica a entrada da cidade!')    

@@ -1,6 +1,10 @@
 function func5(){
         
     var escolha=prompt('Digite sua resposta')
+    while(escolha!=='1' && escolha!=='2' && escolha!=='3' && escolha!=='4')
+    {
+    var escolha=prompt("Qual sua escolha?")
+    }
 
         if(escolha ==='1')
         {
@@ -21,6 +25,11 @@ function func5(){
         
         alert('Ao entrar no refeitório você encontra um banquete para você, a 100 metros você vê a saída de emergência')
         var escolha =prompt('1- Fugir 2-Ficar para o banquete')
+        while(escolha!=='1' && escolha!=='2')
+            {
+            var escolha=prompt("Qual sua escolha?")
+            }
+
     
             if(escolha ==='1')
             {

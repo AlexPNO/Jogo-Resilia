@@ -20,7 +20,10 @@ function ney1(){
     
     function ney2(){
         var escolha=prompt("Você encontra uma brecha nas defesas inimigas e avisa seus amigos que irá atacar 1- Descer da moto para se esconder e invadir? 2-Invadir de moto e tudo")
-        // while(escolha.toLowerCase!=='sim' && escolha.toLowerCase!=='não')
+        while(escolha!=='1' && escolha!=='2')
+        {
+        var escolha=prompt("Qual sua escolha?")
+        }
             if(escolha ==='1')
             {   alert('Você se escondeu e de fininho conseguiu entrar na cidade')
               location.replace('../Neymar/Neymar2.html')

@@ -1,6 +1,10 @@
 function escolha7(){
         
     var escolha=prompt('Digite sua resposta')
+    while(escolha!=='1' && escolha!=='2')
+    {
+    var escolha=prompt("Qual sua escolha?")
+    }
 
         if(escolha ==='1')
         {

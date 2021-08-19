@@ -44,7 +44,8 @@ function escolha5(){
             }
             else if(escolha==='2' )
             {
-            prompt('Você acertou venha comigo! Vou te levar ao portal onde fica a entrada da cidade!')
+            alert('Você acertou venha comigo! Vou te levar ao portal onde fica a entrada da cidade!')
+            alert("Na realidade você errou a questão, e continuará presa no seu quarto")
            location.replace('Game_over.html')
         
             }

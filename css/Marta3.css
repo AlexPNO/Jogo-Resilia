@@ -1,0 +1,10 @@
+body {
+    background: url("../assets/45725_w840h525_1529967261shutterstock-753268144-keukenhof-gardens.jpg") no-repeat center center fixed;
+    background-color: #cccccc;
+    color:#cccccc;
+    
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   }

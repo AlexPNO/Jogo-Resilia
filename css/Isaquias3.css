@@ -1,0 +1,9 @@
+body {
+    background: url("../assets/Refeitorio.jpg") no-repeat center center fixed;
+    background-color: #cccccc;
+    
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   }

@@ -20,6 +20,7 @@ function ney1(){
     
     function ney2(){
         var escolha=prompt("Você encontra uma brecha nas defesas inimigas e avisa seus amigos que irá atacar 1- Descer da moto para se esconder e invadir? 2-Invadir de moto e tudo")
+        //validador quebrando
         while(escolha!=='1' && escolha!=='2')
         {
         var escolha=prompt("Qual sua escolha?")

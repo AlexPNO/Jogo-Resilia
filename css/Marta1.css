@@ -1,9 +1,18 @@
 body {
     background: url("../assets/tworoom05.jpg") no-repeat center center fixed;
     background-color: #cccccc;
-    
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  text-align: center;
    }
+
+   .container{
+      
+      box-sizing:border-box;
+    border:2px solid black;
+    border-radius:10px; 
+      
+  }​ 
+  

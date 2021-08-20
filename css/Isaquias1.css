@@ -6,4 +6,28 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-   }
+  text-align: center;
+  box-sizing:border-box;
+  width:auto;
+  height:auto;
+  
+  
+}
+
+.container{
+   
+   box-sizing:border-box;
+ border:2px solid black;
+ border-radius:10px; }
+ 
+
+.container button {
+  
+  width: auto;
+  height:auto;
+  /* padding: 8px 15px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

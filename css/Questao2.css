@@ -1,3 +1,27 @@
 body{
     background-color:rgb(93, 141, 214);
-}
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+     }
+  
+     .container{
+        
+        box-sizing:border-box;
+      border:2px solid black;
+      border-radius:10px; 
+        
+    }​
+
+    .container button {
+  
+        width: auto;
+        height:auto;
+        /* padding: 8px 15px; */
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+      }

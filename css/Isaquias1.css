@@ -15,7 +15,7 @@ body {
 }
 
 .container{
-   
+   display:flex;
    box-sizing:border-box;
  border:2px solid black;
  border-radius:10px; }
@@ -28,6 +28,7 @@ body {
   /* padding: 8px 15px; */
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   font-size: 16px;
 }
